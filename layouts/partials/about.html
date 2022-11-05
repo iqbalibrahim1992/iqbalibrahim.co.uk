@@ -1,0 +1,7 @@
+{{ $about := .Site.Data.about }}
+
+<div id="about" class="p-6 md:p-6 md:p-16 text-black">
+  <h2 class="heading">{{ $about.title }}</h2>
+  <p class="uppercase text-sm font-semibold mb-3">{{ $about.intro }}</p>
+  <p>{{ $about.summary }}</p>
+</div>

@@ -1,0 +1,16 @@
+{{ $config := .Site.Data.config }}
+
+<div id="contact" class="p-6 md:p-16 text-black">
+  <div class="container">
+      <h2 class="heading mb-3">Contact</h2>
+
+      <div class="text-success my-3">
+        {{ $config.message }}
+      </div>
+
+      <a target="_blank" href="mailto:iqbalibrahim1992@gmail.com" rel="me">
+        <i class="fas fa-envelope"></i>
+        iqbalibrahim1992@gmail.com
+      </a>
+  </div>
+</div>

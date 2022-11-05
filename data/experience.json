@@ -1,0 +1,31 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "Jul 2018 - Present",
+			"company" : "Element Software",
+			"description" : "My own software company specialising in software development, web development and custom integrations. Worked with many local businesses to get them online. "
+		},
+		{
+			"timeperiod" : "Nov 2021 - Present",
+			"company" : "DeadHappy",
+			"description" : "Working in a fast startup environment, maintaining multiple applications and implementing new features with React, Nextjs, Node, AWS, GraphQL, Jest and Apollo. "
+		},
+		{
+			"timeperiod" : "Nov 2019 - Nov 2021",
+			"company" : "CloudCall",
+			"description" : "Migrating the legacy PHP codebase to a modern micro frontends architecture using ReactJS and Node.js whilst maintaining and providing bugfixes on existing codebase. "
+		},
+		{
+			"timeperiod" : "Aug 2017 - Nov 2019",
+			"company" : "Next",
+			"description" : "Played a huge part in setting the foundation for migrating the ‘monolith’ to a modern, microprojects frontend architecture, by building new components with ReactJS/Nextjs and Redux. "
+		},
+		{
+			"timeperiod" : "Aug 2015 - Aug 2017",
+			"company" : "IBM",
+			"website": "https://www.ibm.com",
+			"description" : "Worked on multiple projects for various confidential and FTSE 100 clients and gained great knowledge and experience with many skills. "
+		}
+	]
+}

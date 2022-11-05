@@ -1,0 +1,23 @@
+{
+	"title" : "projects",
+	"projects" : [
+		{
+			"icon" : "laptop",
+			"title" : "Element Software Ltd",
+			"description" : "Starting off small in 2018, Element Software Ltd is now a well-established software company in Leicester working with local businesses to get them online, building beautiful, modern and responsive websites and full-stack web applications.",
+			"website": "https://element-software.co.uk"
+		},
+		{
+			"icon" : "robot",
+			"title" : "Instructables",
+			"description" : "My Instructables page where I've posted DIY projects and electronics related work, resulting in over 150,000 views of my profile. Been an active member of the community, responding to comments and posts, since 2008.",
+			"website": "https://www.instructables.com/member/TheBal/"
+		},
+		{
+			"icon" : "bolt",
+			"title" : "Baltronics",
+			"description" : "An electronics company specialising in electronics design, Arduino, ESP devices, smart home and automation. Smart Home packages launching soon. Also implementing an online store to purchase electronics and related hardware.",
+			"website": "https://www.baltronics.co.uk"
+		}
+	]
+}

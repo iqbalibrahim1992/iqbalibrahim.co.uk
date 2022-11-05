@@ -1,0 +1,26 @@
+{{ $experience := .Site.Data.experience }}
+
+<div id="experience" class="p-6 md:p-16 text-black">
+  <h2 class="heading">{{ $experience.title }}</h2>
+  <div id="timeline">
+    {{ range $index, $element := $experience.experience }}
+    <div class="mb-8 relative md:text-right block">
+      <div class="bg-black w-4 h-4 absolute top-1 md:left-1/2 overflow-hidden -ml-2 rounded-full"></div>
+      
+      <div class="md:w-1/2 pl-6 md:pr-6 {{ if eq (mod $index 2) 0 }} md:pl-6 md:mr-0 md:ml-auto md:text-left {{ end }}">
+        <span class="uppercase text-xs font-bold">{{ $element.timeperiod }}</span>
+        <h6 class="h3 my-2 text-gray-500">{{ $element.company }}</h6>
+        {{ $website := $element.website }}
+        {{ if $website }}
+        <a target="_blank" href="{{ $website }}">
+          <i class="fas fa-link h-3 w-3 mr-2"></i>
+          {{ $website }}
+        </a>
+        {{ end }}
+        <p>{{ $element.description }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+</div>

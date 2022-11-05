@@ -1,0 +1,21 @@
+{{ $projects := .Site.Data.projects }}
+
+<div class="p-6 lg:p-16 bg-gray-100 text-black">
+  <h2 class="heading">{{ $projects.title }}</h2>
+
+  <div class="text-center flex xl:space-x-3 xl:flex-row flex-col">
+
+    {{ range $index, $element := $projects.projects }}
+
+    <div class="mb-3 bg-gray-50 p-4 rounded-xl pb-6 xl:w-1/2 w-full block xl:inline-block">
+      <div class="p-4">
+        <i class="fa fa-{{ $element.icon }} fa-3x"></i>
+        <h5 class="mt-4">{{ $element.title }}</h5>
+        <p class="text-sm">{{ $element.description }}</p>
+      </div>
+      <a href="{{ $element.website }}" class="button inline bg-black text-white py-2 px-8 uppercase text-sm font-bold">Visit Website</a>
+    </div>
+
+    {{ end }}
+  </div>
+</div>
