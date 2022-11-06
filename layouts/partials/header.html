@@ -45,9 +45,7 @@
 	{{ end -}}
 		
 	{{ partial "seo_schema.html" . }}
-	{{ if .Site.Params.GoogleAnalyticsID }}
-		{{ partial "analytics-gtag.html" . }}
-	{{ end }}
+	{{ partial "analytics-gtag.html" . }}
 
 </head>
 <body class="clearfix">
